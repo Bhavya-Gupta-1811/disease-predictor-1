@@ -1,0 +1,30 @@
+[
+  { "id": 1, "organ": "Skin", "image": "/images/organs/skin.jpg" },
+  { "id": 2, "organ": "Eyes", "image": "/images/organs/eyes.jpg" },
+  { "id": 3, "organ": "Stomach", "image": "/images/organs/stomach.jpg" },
+  {
+    "id": 4,
+    "organ": "Respiratory System",
+    "image": "/images/organs/respiratory.jpg"
+  },
+  { "id": 5, "organ": "Heart", "image": "/images/organs/heart.jpg" },
+  { "id": 6, "organ": "Nervous System", "image": "/images/organs/nervous.jpg" },
+  { "id": 7, "organ": "Thyroid", "image": "/images/organs/thyroid.jpg" },
+  { "id": 8, "organ": "Urinary System", "image": "/images/organs/urinary.jpg" },
+  {
+    "id": 9,
+    "organ": "Reproductive System",
+    "image": "/images/organs/reproductive.jpg"
+  },
+  { "id": 10, "organ": "Liver", "image": "/images/organs/liver.jpg" },
+  {
+    "id": 11,
+    "organ": "General Symptoms",
+    "image": "/images/organs/general.jpg"
+  },
+  {
+    "id": 12,
+    "organ": "Medical History",
+    "image": "/images/organs/history.jpg"
+  }
+]

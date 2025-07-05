@@ -1,0 +1,17 @@
+[
+  {
+    "icon":"MdPlace",
+    "title":"Find Us",
+    "details":"New Delhi"
+  },
+  {
+    "icon":"IoCallSharp",
+    "title":"Call Us",
+    "details":"9876543210"
+  },
+  {
+    "icon":"TbMailPlus",
+    "title":"Mail Us",
+    "details":"abc@gmail.com"
+  }
+]

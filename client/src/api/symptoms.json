@@ -1,0 +1,44 @@
+{
+  "Skin": [
+    "itching",
+    "red_spots_over_body",
+    "yellowish_skin",
+    "ulcers_on_tongue"
+  ],
+  "Eyes": [
+    "pain_behind_the_eyes",
+    "blurred_and_distorted_vision",
+    "redness_of_eyes"
+  ],
+  "Stomach": [
+    "stomach_pain",
+    "acidity",
+    "diarrhoea",
+    "bloody_stool",
+    "cramps",
+    "nausea"
+  ],
+  "Respiratory System": [
+    "cough",
+    "continuous_sneezing",
+    "chest_pain",
+    "runny_nose"
+  ],
+  "Heart": ["chest_pain", "fast_heart_rate"],
+  "Nervous System": ["headache", "anxiety", "joint_pain"],
+  "Thyroid": ["obesity", "enlarged_thyroid", "abnormal_menstruation"],
+  "Urinary System": ["dark_urine"],
+  "Reproductive System": ["abnormal_menstruation"],
+  "Liver": [
+    "yellowish_skin",
+    "dark_urine",
+    "nausea",
+    "history_of_alcohol_consumption"
+  ],
+  "General Symptoms": ["mild_fever", "dehydration", "irregular_sugar_level"],
+  "Medical History": [
+    "receiving_blood_transfusion",
+    "receiving_unsterile_injections",
+    "history_of_alcohol_consumption"
+  ]
+}
