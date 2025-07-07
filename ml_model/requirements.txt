@@ -1,9 +1,9 @@
 flask
+flask_cors
 cloudpickle
-scikit-learn==1.7.0
+scikit-learn
 numpy
 gunicorn
-flask_cors
 pandas
 seaborn
 matplotlib
