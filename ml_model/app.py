@@ -1,15 +1,16 @@
 from flask import Flask, request, jsonify
 from flask_cors import CORS
-import joblib
+import cloudpickle
 import numpy as np
 import os
 
 app = Flask(__name__)
 CORS(app)
 
-# Load model
 MODEL_PATH = os.path.join(os.path.dirname(__file__), 'disease_model.pkl')
-model = joblib.load(MODEL_PATH)
+with open(MODEL_PATH, 'rb') as f:
+    model = cloudpickle.load(f)
+
 
 # Mapping
 disease_mapping = {
