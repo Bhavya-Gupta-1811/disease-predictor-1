@@ -1,5 +1,5 @@
 flask
-joblib
+cloudpickle
 scikit-learn==1.7.0
 numpy
 gunicorn
