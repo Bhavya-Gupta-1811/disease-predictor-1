@@ -25,6 +25,7 @@ disease_mapping = {
     39: 'Psoriasis', 40: 'Impetigo'
 }
 
+# Features expected by model
 feature_names = [
     'itching', 'continuous_sneezing', 'joint_pain', 'stomach_pain',
     'acidity', 'ulcers_on_tongue', 'anxiety', 'irregular_sugar_level',
@@ -37,6 +38,12 @@ feature_names = [
     'receiving_unsterile_injections', 'history_of_alcohol_consumption'
 ]
 
+# Health check route for Render
+@app.route('/')
+def home():
+    return 'Disease Prediction API is running'
+
+# Main prediction route
 @app.route('/predict', methods=['POST'])
 def predict():
     data = request.get_json()
@@ -50,6 +57,7 @@ def predict():
     
     return jsonify({'disease': predicted_disease})
 
+# Run on Render's assigned port
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=5001, debug=True)
-
+    port = int(os.environ.get("PORT", 10000))  # Default is 10000 if PORT not found
+    app.run(host="0.0.0.0", port=port)
