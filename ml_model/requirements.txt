@@ -4,3 +4,7 @@ scikit-learn
 numpy
 gunicorn
 flask_cors
+os
+pandas
+seaborn
+matplotlib
