@@ -99,7 +99,7 @@ export const Contact = () => {
                   name="message"
                   id="message"
                   cols="30"
-                  row="10"
+                  rows="10"
                   value={contact.message}
                   onChange={handleInput}
                 />
