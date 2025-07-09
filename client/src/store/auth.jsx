@@ -23,7 +23,7 @@ export const AuthProvider = ({ children }) => {
 
   const userAuthentication = async () => {
     try {
-      const response = await fetch("https://disease-predictor-1-a2y1.onrender.com", {
+      const response = await fetch("https://disease-predictor-1-a2y1.onrender.com/api/auth/users", {
         method: "GET",
         headers: {
           Authorization:`Bearer ${token}`,
