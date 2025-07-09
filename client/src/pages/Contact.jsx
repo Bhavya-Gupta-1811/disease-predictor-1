@@ -37,7 +37,7 @@ export const Contact = () => {
   const handleFormSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("https://disease-predictor-1-a2y1.onrender.com/contact", {
+      const response = await fetch("https://disease-predictor-1-a2y1.onrender.com/api/form/contact", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
