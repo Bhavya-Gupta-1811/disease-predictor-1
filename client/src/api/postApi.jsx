@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5001",
+  baseURL: "https://disease-predictor-1-2.onrender.com",
   headers: {
     "Content-Type": "application/json",
   },
